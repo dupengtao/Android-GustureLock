@@ -1,0 +1,95 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/inspectionProfiles/
+* .idea/inspectionProfiles/Project_Default.xml
+* .idea/inspectionProfiles/profiles_settings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/uiDesigner.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* GustureLock.iml
+* LICENSE
+* README
+* README.md
+* out/
+* out/production/
+* out/production/GustureLock/
+* out/production/GustureLock/GustureLock.apk
+* out/production/GustureLock/GustureLock.unaligned.apk
+* out/production/GustureLock/com/
+* out/production/GustureLock/com/gusturelock2/
+* out/production/GustureLock/com/gusturelock2/BuildConfig.class
+* out/production/GustureLock/com/gusturelock2/LockActivity.class
+* out/production/GustureLock/com/gusturelock2/LockSetupActivity.class
+* out/production/GustureLock/com/gusturelock2/MainActivity.class
+* out/production/GustureLock/com/gusturelock2/R$attr.class
+* out/production/GustureLock/com/gusturelock2/R$dimen.class
+* out/production/GustureLock/com/gusturelock2/R$drawable.class
+* out/production/GustureLock/com/gusturelock2/R$id.class
+* out/production/GustureLock/com/gusturelock2/R$layout.class
+* out/production/GustureLock/com/gusturelock2/R$menu.class
+* out/production/GustureLock/com/gusturelock2/R$string.class
+* out/production/GustureLock/com/gusturelock2/R$style.class
+* out/production/GustureLock/com/gusturelock2/R$styleable.class
+* out/production/GustureLock/com/gusturelock2/R.class
+* out/production/GustureLock/widget/
+* out/production/GustureLock/widget/LineView$1.class
+* out/production/GustureLock/widget/LineView.class
+* out/production/GustureLock/widget/LockMovePoint.class
+* out/production/GustureLock/widget/LockPatternHelper$1.class
+* out/production/GustureLock/widget/LockPatternHelper$2.class
+* out/production/GustureLock/widget/LockPatternHelper.class
+* out/production/GustureLock/widget/LockPatternLine$1.class
+* out/production/GustureLock/widget/LockPatternLine$LineAnimListener.class
+* out/production/GustureLock/widget/LockPatternLine.class
+* out/production/GustureLock/widget/LockPatternRing$1.class
+* out/production/GustureLock/widget/LockPatternRing$EmptyAnimatorListener.class
+* out/production/GustureLock/widget/LockPatternRing.class
+* out/production/GustureLock/widget/LockPatternView$1.class
+* out/production/GustureLock/widget/LockPatternView$Cell.class
+* out/production/GustureLock/widget/LockPatternView$DisplayMode.class
+* out/production/GustureLock/widget/LockPatternView$OnPatternListener.class
+* out/production/GustureLock/widget/LockPatternView$SavedState$1.class
+* out/production/GustureLock/widget/LockPatternView$SavedState.class
+* out/production/GustureLock/widget/LockPatternView.class
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

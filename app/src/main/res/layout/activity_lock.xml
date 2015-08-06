@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:lepattenview="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        >
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:text="Input gesture secret"
+            android:textSize="19sp"/>
+
+
+    <widget.LockPatternView
+            android:layout_centerInParent="true"
+            android:id="@+id/lock_pattern"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    <!--lepattenview:le_lpv_lineColor="@android:color/holo_blue_light"-->
+    <!--lepattenview:le_lpv_innerCircleColor="@android:color/holo_blue_dark"-->
+    <!--lepattenview:le_lpv_outerCircleColor="@android:color/holo_green_dark"-->
+    <!--lepattenview:le_lpv_ringColor="@android:color/holo_orange_dark"-->
+
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LeLockPatternView">
+        <attr name="le_lpv_aspect" format="string"/>
+        <attr name="le_lpv_lineColor" format="color"/>
+        <attr name="le_lpv_innerCircleColor" format="color"/>
+        <attr name="le_lpv_ringColor" format="color"/>
+        <attr name="le_lpv_outerCircleColor" format="color"/>
+    </declare-styleable>
+
+    <!--    <declare-styleable name="LeLockPatternView">
+            <attr name="lineColor" format="color" />
+            <attr name="innerCircleColor" format="color" />
+            <attr name="ringColor" format="color" />
+            <attr name="outerCircleColor" format="color" />
+        </declare-styleable>-->
+</resources>
